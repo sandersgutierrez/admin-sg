@@ -1,0 +1,27 @@
+{
+    "name": "@sandersgutierrez/admin-dashboard",
+    "version": "0.0.0",
+    "description": "Admin Dashboard with HTML and CSS",
+    "author": "Sanders Gutiérrez <ing.sanders@gmail.com> (https://sandershitierrez.github.io/)",
+    "license": "MIT",
+    "private": true,
+    "main": "index.js",
+    "keywords": [
+        "dashboard",
+        "admin",
+        "layout"
+    ],
+    "scripts": {
+        "dev": "webpack serve --mode development",
+        "build": "webpack",
+        "format": "prettier --write \"src/**/*.{js,css}\""
+    },
+    "devDependencies": {
+        "handlebars-loader": "1.7.3",
+        "html-webpack-plugin": "5.5.0",
+        "prettier": "2.8.1",
+        "webpack": "5.75.0",
+        "webpack-cli": "5.0.1",
+        "webpack-dev-server": "4.11.1"
+    }
+}
